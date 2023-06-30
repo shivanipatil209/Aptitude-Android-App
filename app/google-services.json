@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1089432151606",
+    "project_id": "aptitude-android-app",
+    "storage_bucket": "aptitude-android-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089432151606:android:73040c65b7c1cbc4905a97",
+        "android_client_info": {
+          "package_name": "com.example.aptitudeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089432151606-sfjeijq7blbpokm5rt82kme4dsa6obst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aptitudeapp",
+            "certificate_hash": "c8f0032ec02afbd0edf39d8e2a927a11ea877e2d"
+          }
+        },
+        {
+          "client_id": "1089432151606-0340pbngmndjpll8keee00r04gsuopge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYS4znR5PNbNa70uH1XIy0AicLbNjokus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089432151606-0340pbngmndjpll8keee00r04gsuopge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

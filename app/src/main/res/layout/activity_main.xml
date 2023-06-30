@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/application_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:fontFamily="@font/dancingscript"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="50sp"
+        android:layout_marginTop="140sp"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/emailSignInButton"
+        android:layout_width="270dp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/button_border"
+        android:gravity="center"
+        android:text="@string/signinwithemail"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/googleSignButton"
+        android:layout_width="270dp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/button_border"
+        android:drawableLeft="@drawable/google_logo"
+        android:gravity="center"
+        android:text="@string/signinwithgoogle"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:fontFamily="@font/dancingscript"/>
+
+
+</LinearLayout>

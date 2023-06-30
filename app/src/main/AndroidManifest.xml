@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="20.0.2" />
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyDjhbqW78M7afXC9iIHCE6NBmbEoEr1aLo" />
+
+    <application
+        android:allowBackup="true"
+        android:label="Anywhere Aptitude"
+        android:supportsRtl="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:screenOrientation="portrait">
+
+        <activity android:name=".DomainOptions"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EmailPasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GoogleSignInActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DBHelper"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".questionspage"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".instructionpage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".levels"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".score"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Solution"
+            android:screenOrientation="portrait"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

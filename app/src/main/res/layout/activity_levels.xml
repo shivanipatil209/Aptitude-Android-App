@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".levels">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/greatvibes"
+        android:text="@string/difficulty_levels"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/normal"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_border" />
+
+    <Button
+        android:id="@+id/medium"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/medium"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_border" />
+    <Button
+        android:id="@+id/difficult"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/difficult"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_border" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="118dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/go_back"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center"
+            android:text="@string/select_different_domain"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</LinearLayout>
